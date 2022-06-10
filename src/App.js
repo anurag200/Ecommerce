@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Nvabar from './component/Nvabar'
+import Home from './component/Home'
+import AddToCart from './component/AddToCart'
+import { Routes, Route } from 'react-router-dom'
+import Details from './component/Details'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Nvabar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/AddToCart" element={<AddToCart />} />
+        <Route path="/Details/:id" element={<Details />} />
+      </Routes>
+    </>
+  )
 }
 
-export default App;
+export default App
