@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/anurag200/Ecommercenpm%20install%20--save%20gh-pages/static/css/main.a869912b.css",
+    "main.js": "/anurag200/Ecommercenpm%20install%20--save%20gh-pages/static/js/main.68217567.js",
+    "index.html": "/anurag200/Ecommercenpm%20install%20--save%20gh-pages/index.html",
+    "main.a869912b.css.map": "/anurag200/Ecommercenpm%20install%20--save%20gh-pages/static/css/main.a869912b.css.map",
+    "main.68217567.js.map": "/anurag200/Ecommercenpm%20install%20--save%20gh-pages/static/js/main.68217567.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a869912b.css",
+    "static/js/main.68217567.js"
+  ]
+}
